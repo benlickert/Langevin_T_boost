@@ -2,9 +2,10 @@
 
 1) error_estimation_T_boosting.ipynb: This jupyter notebook allows for the estimation
 of the error at 300 K when using the concept of T-boosting.
-2) LE_1dim_reflect.cpp: implemetation of the one-dimensional Markovian Langevin 
+2) LE_Tboost_example.ipynb: This jupyter notebook shows how T-boosting simulations can be evaluated
+3) LE_1dim_reflect.cpp: implemetation of the one-dimensional Markovian Langevin 
 equation with the possibility to have a elastic reflection at a lower and a higher border
-3) CMakeLists.txt: used to compile the .cpp code
+4) CMakeLists.txt: used to compile the .cpp code
 
 
 # Quick Start
