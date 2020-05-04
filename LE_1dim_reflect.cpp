@@ -334,7 +334,6 @@ actualpoint=startpoint;
 
 c=0;
 int alreadymentioned=0;
-double counter=0.0;
 double timepoint=0.0;
 
 for(a=0;a<length;a++){
@@ -380,8 +379,7 @@ for(a=0;a<length;a++){
         actualdrift=drift(actualpointbinnumbers);
         actualvelocity=  actualC1*((pastC1*pastvelocity + pastC2*massesinvers*pastwhitenoise) + massesinvers*(pastdrift+actualdrift)*deltat*0.5) + actualC2*massesinvers*actualwhitenoise;
 
-        counter = counter + 1.0;
-        timepoint=counter*deltat;
+        timepoint=timepoint+deltat;
     }
 }
 
